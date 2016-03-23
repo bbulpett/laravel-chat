@@ -156,6 +156,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Pusher Service Provider...
+         */
+        Vinkla\Pusher\PusherServiceProvider
     ],
 
     /*
